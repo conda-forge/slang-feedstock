@@ -36,7 +36,7 @@ test:
 
 about:
   home: http://www.jedsoft.org/slang
-  license: GPL
+  license: GPL-2.0
   license_family: GPL
   license_file: COPYING
   summary: 'S-Lang allows developers to create robust multi-platform software'
