@@ -5,7 +5,7 @@ About slang
 
 Home: http://www.jedsoft.org/slang
 
-Package license: GPL
+Package license: GPL-2.0
 
 Feedstock license: BSD 3-Clause
 
