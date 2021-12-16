@@ -3,7 +3,7 @@
 set -ex
 
 # Get an updated config.sub and config.guess
-cp $BUILD_PREFIX/share/gnuconfig/config.* .
+cp $BUILD_PREFIX/share/gnuconfig/config.* autoconf/
 
 # configure tool is mixing CXXFLAGS with CPPFLAGS
 export CFLAGS="${CFLAGS} ${CPPFLAGS}"
@@ -15,7 +15,7 @@ export CFLAGS="${CFLAGS} ${CPPFLAGS}"
   --with-onig \
   --with-png \
   --with-z \
-  --with-iconv=$PREFIX
+  --with-iconv=$PREFIX || { cat config.log; exit 1; }
 
 # Parallel make fails
 make
