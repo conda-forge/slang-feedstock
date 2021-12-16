@@ -17,7 +17,8 @@ export CFLAGS="${CFLAGS} ${CPPFLAGS}"
   --with-z \
   --with-iconv=$PREFIX
 
-make -j${CPU_COUNT}
+# Parallel make fails
+make
 
 if [[ "$CONDA_BUILD_CROSS_COMPILATION" != "1" ]]; then
   make check
