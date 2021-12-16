@@ -10,7 +10,7 @@ source:
   sha256: fc9e3b0fc4f67c3c1f6d43c90c16a5c42d117b8e28457c5b46831b8b5d3ae31a
 
 build:
-  number: 1002
+  number: 1003
   run_exports:
     # This package has been extremely stable
     # https://abi-laboratory.pro/index.php?view=timeline&l=slang
@@ -32,7 +32,7 @@ requirements:
 
 test:
   commands:
-    - slsh --version
+    - slsh --version  # [build_platform == target_platform]
 
 about:
   home: http://www.jedsoft.org/slang
@@ -56,3 +56,4 @@ about:
 extra:
   recipe-maintainers:
     - sodre
+    - matthiasdiener
