@@ -1,9 +1,9 @@
 About slang
 ===========
 
-Home: http://www.jedsoft.org/slang
+Home: https://www.jedsoft.org/slang
 
-Package license: GPL-2.0
+Package license: GPL-2.0-or-later
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/slang-feedstock/blob/main/LICENSE.txt)
 
@@ -11,7 +11,7 @@ Summary: S-Lang allows developers to create robust multi-platform software
 
 Development: git://git.jedsoft.org/git/slang.git
 
-Documentation: http://www.jedsoft.org/slang/docs.html
+Documentation: https://www.jedsoft.org/slang/docs.html
 
 S-Lang is a multi-platform programmer's library designed to allow a
 developer to create robust multi-platform software. It provides facilities
