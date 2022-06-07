@@ -10,12 +10,11 @@ source:
   sha256: fc9e3b0fc4f67c3c1f6d43c90c16a5c42d117b8e28457c5b46831b8b5d3ae31a
 
 build:
-  number: 1003
+  number: 1004
   run_exports:
     # This package has been extremely stable
     # https://abi-laboratory.pro/index.php?view=timeline&l=slang
     - {{ pin_subpackage(name, max_pin='x') }}
-  skip: True  # [win]
 
 requirements:
   build:
@@ -37,8 +36,8 @@ test:
     - slsh --version  # [build_platform == target_platform]
 
 about:
-  home: http://www.jedsoft.org/slang
-  license: GPL-2.0
+  home: https://www.jedsoft.org/slang
+  license: GPL-2.0-or-later
   license_family: GPL
   license_file: COPYING
   summary: 'S-Lang allows developers to create robust multi-platform software'
@@ -53,7 +52,7 @@ about:
     the interpreter, it may also be used in a stand-alone fashion through the
     use of slsh, which is part of the S-Lang distribution.
   dev_url: git://git.jedsoft.org/git/slang.git
-  doc_url: http://www.jedsoft.org/slang/docs.html
+  doc_url: https://www.jedsoft.org/slang/docs.html
 
 extra:
   recipe-maintainers:
