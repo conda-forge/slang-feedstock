@@ -36,8 +36,8 @@ test:
     - slsh --version  # [build_platform == target_platform]
 
 about:
-  home: http://www.jedsoft.org/slang
-  license: GPL-2.0
+  home: https://www.jedsoft.org/slang
+  license: GPL-2.0-or-later
   license_family: GPL
   license_file: COPYING
   summary: 'S-Lang allows developers to create robust multi-platform software'
@@ -52,7 +52,7 @@ about:
     the interpreter, it may also be used in a stand-alone fashion through the
     use of slsh, which is part of the S-Lang distribution.
   dev_url: git://git.jedsoft.org/git/slang.git
-  doc_url: http://www.jedsoft.org/slang/docs.html
+  doc_url: https://www.jedsoft.org/slang/docs.html
 
 extra:
   recipe-maintainers:
