@@ -20,7 +20,7 @@ export CFLAGS="${CFLAGS} ${CPPFLAGS}"
 # Parallel make fails
 make
 
-if [[ "$CONDA_BUILD_CROSS_COMPILATION" != "1" ]]; then
+if [[ "${CONDA_BUILD_CROSS_COMPILATION:-}" != "1" || "${CROSSCOMPILING_EMULATOR}" != "" ]]; then
   make check
 fi
 

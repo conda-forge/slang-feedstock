@@ -10,7 +10,7 @@ source:
   sha256: f9145054ae131973c61208ea82486d5dd10e3c5cdad23b7c4a0617743c8f5a18
 
 build:
-  number: 0
+  number: 1
   run_exports:
     # This package has been extremely stable
     # https://abi-laboratory.pro/index.php?view=timeline&l=slang
